@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.aboutP{
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.leftP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    flex: 1;
+}
+
+.leftP .wordsP{
+    width: 450px;
+    padding-bottom: 30px;
+}
+
+.leftP .wordsP p{
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    padding-bottom: 30px;
+}
+
+.leftP .wordsP span{
+    line-height: 30px;
+    
+}
+
+.leftP .buttonP{
+    display: flex;
+    gap: 20px;
+}
+
+.leftP .buttonP button{
+    display: flex;
+    background-color: rgb(206 18 19);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.leftP .buttonP button:hover{
+    background-color: black;
+}
+
+.leftP .buttonP i{
+    color: rgb(206 18 19);
+    font-size: 40px;
+}
+
+.leftP .buttonP i:hover{
+    color: red;
+}
+
+.buttonP a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttonP a:hover{
+    color: red;
+}
+
+.rightP{
+    display: flex;
+    flex: 1;
+}
