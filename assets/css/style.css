@@ -1,0 +1,53 @@
+.main .navbar .nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;     
+}
+
+
+.main .navbar .nav ul{
+    display: flex;
+    position: relative;      
+}
+
+.main .navbar .nav li{
+    display: flex;
+    align-items:center;
+    margin-left: 30px;
+}
+
+.main .navbar .nav .yummy{
+    font-size: 30px; 
+    position: relative; 
+    top: 25px;
+}
+
+.main .navbar .nav a{
+    text-decoration: none;
+    color: rgb(156, 151, 151);
+}
+
+
+.main .navbar .nav li :hover{
+    color: black;
+}
+
+
+
+.main .navbar .nav .button{
+    width: 120px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    right: 150px;
+    background-color: red;
+    border-color: red;
+    border: 0px;
+    color: white;
+}   
+
